@@ -1,0 +1,5 @@
+{
+  "*.js": "dlx @biomejs/biome format . --write",
+  "*.html": "dlx @biomejs/biome format . --write",
+  "*.css": "dlx @biomejs/biome format . --write"
+}
