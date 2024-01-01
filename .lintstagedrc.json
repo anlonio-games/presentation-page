@@ -1,5 +1,5 @@
 {
-	"*.js": "npx @biomejs/biome format . --write",
-	"*.html": "npx @biomejs/biome format . --write",
-	"*.css": "npx @biomejs/biome format . --write"
+  "*.js": ["pnpm lint", "pnpm format"],
+  "*.html": ["pnpm lint", "pnpm format"],
+  "*.css": ["pnpm lint", "pnpm format"]
 }
