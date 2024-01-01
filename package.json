@@ -1,10 +1,14 @@
 {
   "name": "presentation-page",
   "version": "1.0.0",
-  "description": "",
+  "description": "Anlonio Games landing page",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo 'ok'",
+    "prepare": "husky install",
+    "lint": "pnpm dlx @biomejs/biome lint .",
+    "lint:style": "pnpm stylelint **/*.css",
+    "format": "pnpm dlx @biomejs/biome format . --write"
   },
   "keywords": [],
   "author": "",
@@ -12,11 +16,34 @@
   "devDependencies": {
     "@biomejs/biome": "^1.4.1",
     "commitizen": "^4.3.0",
-    "cz-conventional-changelog": "^3.3.0"
+    "cz-conventional-changelog": "^3.3.0",
+    "husky": "^8.0.0",
+    "lint-staged": "^15.2.0",
+    "stylelint": "^16.1.0",
+    "stylelint-config-standard": "^36.0.0"
   },
   "config": {
     "commitizen": {
       "path": "./node_modules/cz-conventional-changelog"
     }
-  }
+  },
+  "contributors": [
+    {
+      "name": "Anlonio",
+      "github": "https://github.com/anlonio"
+    },
+    {
+      "name": "Lucas",
+      "github": "https://github.com/lucasdealcantara"
+    },
+    {
+      "name": "Bruno",
+      "github": "https://github.com/brunoredes"
+    }
+  ],
+  "l10n": "pt-BR",
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "packageManager": "pnpm@8.13.1"
 }
