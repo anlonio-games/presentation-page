@@ -11,8 +11,8 @@
     "format": "pnpm dlx @biomejs/biome format . --write"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "author": "Anlonio Games",
+  "license": "MIT License",
   "devDependencies": {
     "@biomejs/biome": "^1.4.1",
     "commitizen": "^4.3.0",
