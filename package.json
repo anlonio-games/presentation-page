@@ -6,9 +6,9 @@
   "scripts": {
     "test": "echo 'ok'",
     "prepare": "husky install",
-    "lint": "pnpm dlx @biomejs/biome lint .",
-    "lint:style": "pnpm stylelint **/*.css",
-    "format": "pnpm dlx @biomejs/biome format . --write"
+    "lint": "npx @biomejs/biome lint .",
+    "lint:style": "npx stylelint **/*.css",
+    "format": "npx @biomejs/biome format . --write"
   },
   "keywords": [],
   "author": "Anlonio Games",
